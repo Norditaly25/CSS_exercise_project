@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+.header-links a {
+    text-decoration: none;
+    display: flex;
+    color: #E5E7EB;
+}
+.header-links {
+    gap: 32px;
+    display: flex;
+}
+
+.hero-section {
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    padding: 80px; 
+    background-color: #1F2937; 
+    color: #F9FAF8;
+    gap: 50px;
+}
+
+.hero-title {
+    font-size: 36px; 
+    font-weight: 900;
+    margin-bottom: 10px; 
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    color: #E5E7EB; 
+    max-width: 500px; 
+    margin-bottom: 20px;
+}
+
+.sign-up {
+    background-color: #3882F6; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.sign-up:hover {
+    background-color: #1D4ED8;
+}
+
+.kitten {
+    width: 250px; 
+    height: auto; 
+    border-radius: 10px; 
+}
+
+.hero-text {
+    max-width: 500px; /* Prevents text from stretching too much */
+    display: flex;
+    flex-direction: column; /* Stack title, text, and button */
+    gap: 16px; /* Adds space between elements */
+}
