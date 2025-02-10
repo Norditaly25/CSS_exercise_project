@@ -8,6 +8,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .header {
@@ -77,4 +78,79 @@ body {
     display: flex;
     flex-direction: column; /* Stack title, text, and button */
     gap: 16px; /* Adds space between elements */
+}
+
+.info-section {
+    text-align: center; /* Centers the title */
+    padding: 50px 0;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Adds spacing between images */
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    background-color: #F9FAF8; /* Placeholder color */
+}
+
+.info-text {
+    font-size: 14px;
+    color: #1F2937;
+    margin-top: 8px;
+}
+
+.info-box img {
+    width: 100%; /* Make image fill the box */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: rounded corners */
+    border: 2px solid #3882F6; /* Optional: border around images */
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;    
+}
+.quote-text {
+    padding: 32px;
+    margin: auto;
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    max-width: 600px;
+    text-align: center;
+}
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    margin-top: 16px;
+    width: 100%;
+    max-width: 600px;
 }
