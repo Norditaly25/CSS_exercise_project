@@ -37,6 +37,8 @@ body {
     background-color: #1F2937; 
     color: #F9FAF8;
     gap: 50px;
+    max-width: 1200px;  
+    margin: 0 auto; 
 }
 
 .hero-title {
@@ -53,12 +55,12 @@ body {
 }
 
 .sign-up {
-    background-color: #3882F6; /* Blue button */
+    background-color: #3882F6; 
     color: white;
-    padding: 10px 20px;
-    font-size: 16px;
+    padding: 6px 12px;
+    font-size: 14px;
     border: none;
-    border-radius: 8px;
+    border-radius: 6px;
     cursor: pointer;
     font-weight: bold;
 }
@@ -74,14 +76,14 @@ body {
 }
 
 .hero-text {
-    max-width: 500px; /* Prevents text from stretching too much */
+    max-width: 500px; 
     display: flex;
-    flex-direction: column; /* Stack title, text, and button */
-    gap: 16px; /* Adds space between elements */
+    flex-direction: column; 
+    gap: 16px;
 }
 
 .info-section {
-    text-align: center; /* Centers the title */
+    text-align: center; 
     padding: 50px 0;
 }
 
@@ -95,7 +97,7 @@ body {
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 40px; /* Adds spacing between images */
+    gap: 40px; 
     flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
@@ -114,7 +116,7 @@ body {
     height: 150px;
     border: 3px solid #3882F6;
     border-radius: 12px;
-    background-color: #F9FAF8; /* Placeholder color */
+    background-color: #F9FAF8; 
 }
 
 .info-text {
@@ -124,10 +126,10 @@ body {
 }
 
 .info-box img {
-    width: 100%; /* Make image fill the box */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Optional: rounded corners */
-    border: 2px solid #3882F6; /* Optional: border around images */
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px; 
+    border: 2px solid #3882F6; 
 }
 
 .quote-section {
@@ -153,4 +155,57 @@ body {
     margin-top: 16px;
     width: 100%;
     max-width: 600px;
+    align-self: flex-end;
+}
+
+.cta-section {
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 50px;
+    display: flex;
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+.cta-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    max-width: 600px;
+}
+
+.cta-btn {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.cta-btn:hover {
+    background: white;
+    color: #3882F6;
+    transition: 0.3s;
+}
+
+.footer-section {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #1F2937;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+.footer-text {
+    text-align: center;
+    color: #E5E7EB;
 }
